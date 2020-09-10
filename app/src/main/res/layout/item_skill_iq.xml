@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="8dp">-->
+
+<!--        <com.google.android.material.imageview.ShapeableImageView-->
+<!--            android:id="@+id/shapeableImageView"-->
+<!--            android:layout_width="90dp"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:layout_marginStart="24dp"-->
+<!--            android:scaleType="fitCenter"-->
+<!--            android:src="@drawable/skill_iq"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        <com.google.android.material.textview.MaterialTextView-->
+<!--            android:id="@+id/tv_learnerName"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:textSize="18sp"-->
+<!--            app:layout_constrainedWidth="true"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/shapeableImageView"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            tools:text="John Doe" />-->
+
+<!--        <com.google.android.material.textview.MaterialTextView-->
+<!--            android:id="@+id/tv_info"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:layout_constrainedWidth="true"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            tools:text="@tools:sample/lorem"-->
+<!--            app:layout_constraintStart_toStartOf="@+id/tv_learnerName"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/tv_learnerName" />-->
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+</com.google.android.material.card.MaterialCardView>

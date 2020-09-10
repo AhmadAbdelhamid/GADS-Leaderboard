@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.gadsleaderboard.ui.fragments.ViewPagerFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/to_submitFragment"
+            app:destination="@id/submitFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/submitFragment"
+        android:name="com.example.gadsleaderboard.ui.fragments.SubmitFragment"
+        android:label="fragment_submit"
+        tools:layout="@layout/fragment_submit" >
+
+        <action
+            android:id="@+id/to_SubmissionStateDialog"
+            app:destination="@id/SubmissionStateDialog" />
+    </fragment>
+    <dialog
+        android:id="@+id/SubmissionStateDialog"
+        android:name="com.example.gadsleaderboard.ui.fragments.dialog.SubmissionStateDialog"
+        android:label="FailedDialog"
+        tools:layout="@layout/fragment_failed_dialog">
+        <argument
+            android:name="submissionState"
+            app:argType="com.example.gadsleaderboard.network.googleutil.Resource$Status" />
+
+    </dialog>
+
+</navigation>
