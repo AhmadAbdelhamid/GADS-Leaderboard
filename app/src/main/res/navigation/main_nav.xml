@@ -8,7 +8,7 @@
         android:id="@+id/mainFragment"
         android:name="com.example.gadsleaderboard.ui.fragments.ViewPagerFragment"
         android:label="MainFragment"
-        tools:layout="@layout/fragment_main" >
+        tools:layout="@layout/fragment_view_pager" >
         <action
             android:id="@+id/to_submitFragment"
             app:destination="@id/submitFragment" />

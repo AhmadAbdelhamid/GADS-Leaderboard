@@ -9,7 +9,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.example.gadsleaderboard.R
 import com.google.android.material.tabs.TabLayoutMediator
-import kotlinx.android.synthetic.main.fragment_main.*
+import kotlinx.android.synthetic.main.fragment_view_pager.*
 
 private const val NUMBER_OF_TABS = 2
 class ViewPagerFragment : Fragment() {
@@ -23,7 +23,7 @@ class ViewPagerFragment : Fragment() {
 
 	override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
 	                          savedInstanceState: Bundle?): View? {
-		return inflater.inflate(R.layout.fragment_main, container, false)
+		return inflater.inflate(R.layout.fragment_view_pager, container, false)
 	}
 
 	override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
